@@ -1,0 +1,348 @@
+{
+  "personas": {
+    "general": {
+      "meta": {
+        "title": "Nicholas Allen Jackson | Technical Generalist & Web Developer",
+        "description": "Self-directed technical professional combining web development, client communication, and AI-assisted workflows. Portfolio of real freelance client projects."
+      },
+      "hero": {
+        "name": "Nicholas Allen Jackson",
+        "badge": "Open to technical roles",
+        "headline": "Technical Generalist, Builder, and Problem Solver",
+        "tagline": "I find a problem, learn what's needed, and ship a working solution for real businesses, on real timelines.",
+        "summary": "I'm a self-directed technical professional who blends web development, client communication, and AI-assisted workflows. While working full-time, I've built and run a freelance web business from the ground up, landing clients through cold outreach, gathering requirements, building and deploying their sites, and sticking around to support them. I pick up new tools fast and get things done without a lot of hand-holding."
+      },
+      "skills": {
+        "categories": [
+          {
+            "name": "Web Technologies",
+            "items": ["React", "HTML5, CSS3, JavaScript (ES6+)", "WordPress", "Shopify", "CRM/marketing platforms (HighLevel)", "GoDaddy Website Builder", "Responsive, mobile-first design", "Third-party integrations (booking, forms, maps)"]
+          },
+          {
+            "name": "Business & Client-Facing",
+            "items": ["Client discovery & requirements gathering", "Cold outreach & lead generation", "Project scoping & timeline management", "Client communication & expectation-setting", "Documentation & handoff materials", "End-to-end project ownership"]
+          },
+          {
+            "name": "AI Tools & Workflow",
+            "items": ["AI-assisted development (Claude, ChatGPT)", "AI-assisted research & troubleshooting", "Workflow automation & productivity tooling", "Prompt engineering for technical tasks", "Rapid prototyping with AI pair-programming"]
+          },
+          {
+            "name": "Technical",
+            "items": ["Technical troubleshooting & debugging", "Website deployment & hosting", "Site maintenance & ongoing updates", "QA / cross-browser & device testing", "Basic Git version control", "Performance & accessibility checks"]
+          }
+        ]
+      },
+      "experience": [
+        {
+          "role": "Freelance Web Developer & Technical Consultant",
+          "type": "Self-Employed / Independent",
+          "period": "2023 – Present",
+          "bullets": [
+            "Acquired multiple paying clients independently through cold outreach, with no inbound lead pipeline",
+            "Managed full project lifecycle: initial client conversation, requirements gathering, design/build, deployment, and ongoing support",
+            "Built and deployed websites across React, WordPress, Shopify, custom HTML/CSS, and CRM-based platforms (HighLevel, GoDaddy Website Builder)",
+            "Used AI-assisted tools (Claude, ChatGPT) to accelerate development, troubleshooting, and client documentation",
+            "Maintained ongoing relationships with active clients, handling support requests and updates as needed"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Shear Genius",
+          "tagline": "Custom website + online booking for a local barbershop",
+          "url": "https://sheargenius.online/",
+          "image": "assets/projects/sg.png",
+          "tags": ["Custom HTML/CSS", "Booksy Integration", "Local Business"],
+          "problem": "A local barbershop in Hawthorne, CA had no real online presence. Customers couldn't find services, pricing, or hours, and booking only happened by phone or walk-in.",
+          "solution": "Designed and built a custom HTML/CSS website (Home, About, Services, Contact), wrote out the full service menu and pricing, and integrated a Booksy booking widget so customers can self-schedule online. Connected the site to the shop's Instagram, Facebook, and Yelp.",
+          "result": "The shop now has a professional, branded web presence with self-serve online booking. The site is live and the relationship is ongoing. I remain the go-to contact for updates and support."
+        },
+        {
+          "name": "CSM Junk Removal",
+          "tagline": "Lead-generation site with CRM-driven quote requests across 9+ cities",
+          "url": "http://csmjunkremoval.net/",
+          "image": "assets/projects/csm.png",
+          "tags": ["CRM / HighLevel", "Lead Capture", "SMS Automation"],
+          "problem": "A junk removal company serving 9+ Inland Empire cities needed a site that could generate and capture leads automatically, without a dedicated marketing or ops team.",
+          "solution": "Built out the site on a CRM-integrated platform (HighLevel/LeadConnector), including service area pages, pricing tiers, testimonials, a photo gallery, Google Maps integration, and a quote-request form with file upload and SMS opt-in.",
+          "result": "The business now has an automated lead pipeline (quote requests flow into the CRM and trigger SMS follow-up) covering 9+ service areas. The site is live and the client relationship is active."
+        },
+        {
+          "name": "Stephens/T.A. Upshaw Scholarship Foundation",
+          "tagline": "Public site for a volunteer-run scholarship nonprofit",
+          "url": "https://stausf.org/",
+          "image": "assets/projects/upshaw.png",
+          "tags": ["GoDaddy Website Builder", "Nonprofit", "Client Support"],
+          "problem": "An all-volunteer 501(c)(3) scholarship foundation needed an accessible website to publicize scholarships, accept donations through multiple channels, and share downloadable applications, without any technical staff.",
+          "solution": "Built and customized the site on GoDaddy's website builder: organized scholarship eligibility, requirements, and the April 30 deadline, set up multi-channel donation info (PayPal, CashApp, mail, payroll deduction), added downloadable PDF applications, and a newsletter signup.",
+          "result": "The foundation has a clear, navigable site for applicants and donors that the volunteer board can maintain themselves. Live, active client relationship."
+        }
+      ],
+      "about": "I didn't take a traditional path into tech. I learned by doing. While working a full-time job, I started teaching myself web development and used cold outreach to land my first paying clients. Since then, I've built and shipped real websites for a barbershop, a junk removal company, and a nonprofit foundation, handling everything from the first conversation to the live site and everything after. I lean heavily on AI tools to learn faster and work more efficiently, but the judgment, communication, and follow-through are mine. I'm looking for a role where that combination (technical ability, client communication, and the drive to figure things out) is the asset.",
+      "contact": {
+        "email": "nicholasjackson5656@gmail.com",
+        "phone": "+1-555-000-0000",
+        "linkedin": "https://www.linkedin.com/in/nicholas-jackson-852275216/",
+        "blurb": "Happy to talk about how my freelance experience translates to your team."
+      }
+    },
+    "webdev": {
+      "meta": {
+        "title": "Nicholas Allen Jackson | Web Developer (React, WordPress, Shopify)",
+        "description": "Front-end and web developer portfolio: custom builds, WordPress, Shopify, and CRM-based sites for real freelance clients."
+      },
+      "hero": {
+        "name": "Nicholas Allen Jackson",
+        "badge": "Open to Web Developer roles",
+        "headline": "Front-End & Web Developer: React, WordPress, Shopify & Custom Builds",
+        "tagline": "I design, build, and ship websites for real businesses, from the first client conversation to a live, working site.",
+        "summary": "I'm a self-taught web developer who has built and deployed sites for paying clients across React, WordPress, Shopify, and custom HTML/CSS, handling everything from requirements gathering to launch and ongoing maintenance. I move fast, learn new stacks quickly, and use AI tools to speed up development without cutting corners on quality."
+      },
+      "skills": {
+        "categories": [
+          {
+            "name": "Web Technologies",
+            "items": ["React (component-based UI development)", "HTML5, CSS3, JavaScript (ES6+)", "WordPress (setup, theming, content management)", "Shopify (store setup & customization)", "CRM/marketing platforms (HighLevel)", "GoDaddy Website Builder", "Responsive, mobile-first design", "Third-party integrations (booking widgets, forms, maps)"]
+          },
+          {
+            "name": "Technical",
+            "items": ["Website deployment & hosting", "Site maintenance & ongoing updates", "QA / cross-browser & device testing", "Basic Git version control", "Performance & accessibility checks", "Technical troubleshooting & debugging"]
+          },
+          {
+            "name": "AI Tools & Workflow",
+            "items": ["AI-assisted development (Claude, ChatGPT)", "Rapid prototyping with AI pair-programming", "AI-assisted research & troubleshooting", "Prompt engineering for technical tasks", "Workflow automation & productivity tooling"]
+          },
+          {
+            "name": "Business & Client-Facing",
+            "items": ["Client discovery & requirements gathering", "Project scoping & timeline management", "Client communication & expectation-setting", "Cold outreach & lead generation", "Documentation & handoff materials", "End-to-end project ownership"]
+          }
+        ]
+      },
+      "experience": [
+        {
+          "role": "Freelance Web Developer & Technical Consultant",
+          "type": "Self-Employed / Independent",
+          "period": "2023 – Present",
+          "bullets": [
+            "Designed and built custom websites from scratch for small business clients, including layout, styling, and content structure",
+            "Integrated third-party tools (booking widgets, CRM forms, maps, donation links) into client sites",
+            "Built and customized sites across multiple platforms: custom HTML/CSS, WordPress, Shopify, and CRM-based site builders (HighLevel, GoDaddy)",
+            "Owned deployment and post-launch maintenance, including bug fixes and content updates",
+            "Used AI-assisted coding tools to speed up development and explore unfamiliar frameworks quickly"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Shear Genius",
+          "tagline": "Custom website + online booking for a local barbershop",
+          "url": "https://sheargenius.online/",
+          "image": "assets/projects/sg.png",
+          "tags": ["Custom HTML/CSS", "Booksy Integration", "Local Business"],
+          "problem": "Client needed a website built entirely from scratch: no existing site, no template, just a list of services and prices.",
+          "solution": "Built the entire site in custom HTML/CSS (no page builder), structured around Home/About/Services/Contact, and integrated the Booksy scheduling widget as the booking system. Linked social proof channels (Instagram, Facebook, Yelp) directly into the design.",
+          "result": "A fast, lightweight, fully custom site the client can point customers to for services, pricing, and booking. Live and actively maintained."
+        },
+        {
+          "name": "CSM Junk Removal",
+          "tagline": "Lead-generation site with CRM-driven quote requests across 9+ cities",
+          "url": "http://csmjunkremoval.net/",
+          "image": "assets/projects/csm.png",
+          "tags": ["CRM / HighLevel", "Lead Capture", "SMS Automation"],
+          "problem": "Needed a marketing site with built-in lead capture that non-technical staff could update themselves.",
+          "solution": "Built the site structure (services, service areas, pricing tiers, testimonials, photo gallery) on HighLevel, integrated Google Maps and Firebase-backed media storage, and connected CRM-based lead forms with file upload support.",
+          "result": "A fully functional marketing and lead-gen site, live and actively used by the client."
+        },
+        {
+          "name": "Stephens/T.A. Upshaw Scholarship Foundation",
+          "tagline": "Public site for a volunteer-run scholarship nonprofit",
+          "url": "https://stausf.org/",
+          "image": "assets/projects/upshaw.png",
+          "tags": ["GoDaddy Website Builder", "Nonprofit", "Client Support"],
+          "problem": "Needed a professional-looking site for a 501(c)(3) nonprofit with no development budget.",
+          "solution": "Customized a GoDaddy Website Builder site with structured pages for mission, eligibility, donations, and applications, plus testimonials and a newsletter signup.",
+          "result": "A live public site that represents the foundation professionally to applicants, donors, and the community."
+        }
+      ],
+      "about": "I taught myself to build websites by actually building them, for real clients, with real deadlines and real money on the line. I started with cold outreach, found small businesses that needed a web presence, and learned whatever stack the job called for: custom HTML/CSS, WordPress, Shopify, CRM-based builders. I use AI tools to move faster and pick up new frameworks quickly, but the design decisions, client communication, and final product are mine. I'm looking for a developer role where shipping working software for real users matters more than where I went to school.",
+      "contact": {
+        "email": "nicholasjackson5656@gmail.com",
+        "phone": "+1-555-000-0000",
+        "linkedin": "https://www.linkedin.com/in/nicholas-jackson-852275216/",
+        "blurb": "Looking for front-end or web developer roles. Let's talk about your stack and what you're building."
+      }
+    },
+    "support": {
+      "meta": {
+        "title": "Nicholas Allen Jackson | Technical Support & Implementation Specialist",
+        "description": "Technical support and implementation portfolio: troubleshooting, documentation, and client communication for real freelance clients."
+      },
+      "hero": {
+        "name": "Nicholas Allen Jackson",
+        "badge": "Open to Technical Support / Implementation roles",
+        "headline": "Technical Support & Implementation Specialist",
+        "tagline": "I help non-technical teams get unstuck, diagnosing issues, documenting fixes, and keeping client-facing systems running smoothly.",
+        "summary": "I've spent the last several years as the technical point of contact for small business clients, troubleshooting websites, forms, booking systems, and integrations, then explaining the fix in plain language. I'm comfortable being the person who picks up the ticket, figures out what's actually wrong, and follows through until it's resolved."
+      },
+      "skills": {
+        "categories": [
+          {
+            "name": "Technical",
+            "items": ["Technical troubleshooting & debugging", "Website deployment & hosting", "Site maintenance & ongoing updates", "QA / cross-browser & device testing", "Performance & accessibility checks", "Basic Git version control"]
+          },
+          {
+            "name": "Business & Client-Facing",
+            "items": ["Client communication & expectation-setting", "Documentation & handoff materials", "Client discovery & requirements gathering", "Project scoping & timeline management", "End-to-end project ownership", "Cold outreach & lead generation"]
+          },
+          {
+            "name": "AI Tools & Workflow",
+            "items": ["AI-assisted research & troubleshooting", "AI-assisted development (Claude, ChatGPT)", "Workflow automation & productivity tooling", "Prompt engineering for technical tasks", "Rapid prototyping with AI pair-programming"]
+          },
+          {
+            "name": "Web Technologies",
+            "items": ["CRM/marketing platforms (HighLevel)", "GoDaddy Website Builder", "WordPress", "Shopify", "React", "HTML5, CSS3, JavaScript (ES6+)", "Third-party integrations (booking, forms, maps)", "Responsive, mobile-first design"]
+          }
+        ]
+      },
+      "experience": [
+        {
+          "role": "Freelance Web Developer & Technical Consultant",
+          "type": "Self-Employed / Independent",
+          "period": "2023 – Present",
+          "bullets": [
+            "Acted as the primary technical point of contact for small business clients after launch",
+            "Diagnosed and resolved issues with forms, booking widgets, SMS opt-in flows, and CRM integrations",
+            "Translated technical issues into plain-language explanations for non-technical business owners",
+            "Documented fixes, configurations, and workflows so clients could understand what changed and why",
+            "Managed multiple active client relationships simultaneously, prioritizing based on urgency and impact"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "CSM Junk Removal",
+          "tagline": "Lead-generation site with CRM-driven quote requests across 9+ cities",
+          "url": "http://csmjunkremoval.net/",
+          "image": "assets/projects/csm.png",
+          "tags": ["CRM / HighLevel", "Lead Capture", "SMS Automation"],
+          "problem": "The lead-intake form needed to reliably handle file uploads and SMS opt-in messaging, and comply with SMS marketing rules, with someone available to fix issues as they came up.",
+          "solution": "Configured and tested the LeadConnector intake form (file upload + SMS opt-in compliance language), set up Firebase-backed media storage for project photos, and provided ongoing troubleshooting as the client's needs changed.",
+          "result": "A reliable, compliant lead-intake system, with an active support relationship for fixes and changes."
+        },
+        {
+          "name": "Stephens/T.A. Upshaw Scholarship Foundation",
+          "tagline": "Public site for a volunteer-run scholarship nonprofit",
+          "url": "https://stausf.org/",
+          "image": "assets/projects/upshaw.png",
+          "tags": ["GoDaddy Website Builder", "Nonprofit", "Client Support"],
+          "problem": "A volunteer board with no technical background needed a site they could mostly run themselves, plus help when something needed updating.",
+          "solution": "Set up the site structure and content on GoDaddy's builder, documented how to update key sections (deadlines, donation info), and remained available for support requests and changes.",
+          "result": "The board can manage day-to-day content, with me as backup for anything technical. It's an active, low-friction support relationship."
+        },
+        {
+          "name": "Shear Genius",
+          "tagline": "Custom website + online booking for a local barbershop",
+          "url": "https://sheargenius.online/",
+          "image": "assets/projects/sg.png",
+          "tags": ["Custom HTML/CSS", "Booksy Integration", "Local Business"],
+          "problem": "Owner needed a working booking flow they could trust, plus someone to call when something broke.",
+          "solution": "Built and deployed the site, integrated and tested the Booksy booking widget end-to-end, and set up a direct line for support requests.",
+          "result": "A stable, low-maintenance site with a working booking flow and a single point of contact for any issues. Active, ongoing support relationship."
+        }
+      ],
+      "about": "My path into tech started with solving problems for people who couldn't solve them themselves. Running a freelance web business meant I was the person small business owners called when their booking widget broke, their lead form stopped working, or they just didn't understand what was going on. I learned to diagnose issues quickly, explain them in plain language, and follow through until they were fixed. I'm looking for a support or implementation role where that combination (technical troubleshooting plus genuinely helpful communication) is valued.",
+      "contact": {
+        "email": "nicholasjackson5656@gmail.com",
+        "phone": "+1-555-000-0000",
+        "linkedin": "https://www.linkedin.com/in/nicholas-jackson-852275216/",
+        "blurb": "Looking for technical support, implementation, or product support roles. Let's talk about how I can help your team."
+      }
+    },
+    "operations": {
+      "meta": {
+        "title": "Nicholas Allen Jackson | Technical Operations & Project Coordinator",
+        "description": "Technical operations portfolio: process design, CRM/automation workflows, and end-to-end project ownership for real freelance clients."
+      },
+      "hero": {
+        "name": "Nicholas Allen Jackson",
+        "badge": "Open to Operations / Coordinator roles",
+        "headline": "Technical Operations & Project Coordinator",
+        "tagline": "I bring structure to messy processes, owning projects end-to-end and using AI tools to move faster.",
+        "summary": "I run a freelance technical practice the way a good ops person runs a team: finding the work, scoping it, building it, and following through on delivery and support. I use AI-assisted workflows to manage multiple client projects at once, and I'm comfortable owning a process from first contact through to a finished result with minimal oversight."
+      },
+      "skills": {
+        "categories": [
+          {
+            "name": "Business & Client-Facing",
+            "items": ["End-to-end project ownership", "Project scoping & timeline management", "Client discovery & requirements gathering", "Cold outreach & lead generation", "Client communication & expectation-setting", "Documentation & handoff materials"]
+          },
+          {
+            "name": "AI Tools & Workflow",
+            "items": ["Workflow automation & productivity tooling", "AI-assisted development (Claude, ChatGPT)", "AI-assisted research & troubleshooting", "Prompt engineering for technical tasks", "Rapid prototyping with AI pair-programming"]
+          },
+          {
+            "name": "Technical",
+            "items": ["Technical troubleshooting & debugging", "Website deployment & hosting", "Site maintenance & ongoing updates", "QA / cross-browser & device testing", "Basic Git version control", "Performance & accessibility checks"]
+          },
+          {
+            "name": "Web Technologies",
+            "items": ["CRM/marketing platforms (HighLevel)", "GoDaddy Website Builder", "WordPress", "Shopify", "React", "HTML5, CSS3, JavaScript (ES6+)", "Responsive, mobile-first design", "Third-party integrations (booking, forms, maps)"]
+          }
+        ]
+      },
+      "experience": [
+        {
+          "role": "Freelance Web Developer & Technical Consultant",
+          "type": "Self-Employed / Independent",
+          "period": "2023 – Present",
+          "bullets": [
+            "Sourced and acquired clients independently through cold outreach and direct business development",
+            "Owned each project end-to-end: scoping, timeline, build, deployment, and ongoing client relationship",
+            "Set up and configured CRM/marketing platforms (HighLevel/LeadConnector) to manage lead capture and follow-up workflows",
+            "Used AI-assisted workflows to manage multiple concurrent client projects efficiently",
+            "Balanced freelance client work alongside a full-time job, requiring strong self-management and prioritization"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "CSM Junk Removal",
+          "tagline": "Lead-generation site with CRM-driven quote requests across 9+ cities",
+          "url": "http://csmjunkremoval.net/",
+          "image": "assets/projects/csm.png",
+          "tags": ["CRM / HighLevel", "Lead Capture", "SMS Automation"],
+          "problem": "Leads were coming in ad hoc with no system to capture, route, or follow up on them across a large multi-city service area.",
+          "solution": "Set up the site on HighLevel/LeadConnector to centralize lead capture (quote form → CRM → SMS follow-up), organized service area pages for 9+ communities, and added testimonials and pricing tiers to support the sales process.",
+          "result": "An end-to-end lead workflow (from form submission to CRM record to automated SMS follow-up) running with minimal manual intervention."
+        },
+        {
+          "name": "Stephens/T.A. Upshaw Scholarship Foundation",
+          "tagline": "Public site for a volunteer-run scholarship nonprofit",
+          "url": "https://stausf.org/",
+          "image": "assets/projects/upshaw.png",
+          "tags": ["GoDaddy Website Builder", "Nonprofit", "Client Support"],
+          "problem": "Scholarship requirements and donation channels (mail, PayPal, CashApp, payroll deduction) were scattered and undocumented, creating repeated questions for the board.",
+          "solution": "Consolidated all eligibility requirements, deadlines, and donation options into one organized site with downloadable PDF applications and clear calls to action.",
+          "result": "A single source of truth for applicants and donors, reducing repetitive questions for the volunteer board."
+        },
+        {
+          "name": "Shear Genius",
+          "tagline": "Custom website + online booking for a local barbershop",
+          "url": "https://sheargenius.online/",
+          "image": "assets/projects/sg.png",
+          "tags": ["Custom HTML/CSS", "Booksy Integration", "Local Business"],
+          "problem": "Service menu, pricing, and booking existed only informally, nothing was documented or accessible online.",
+          "solution": "Structured the shop's full service list and pricing into a clear site, and set up Booksy as the system of record for bookings, replacing ad hoc phone scheduling.",
+          "result": "Owner now has an organized digital presence and a repeatable booking workflow that runs without manual coordination."
+        }
+      ],
+      "about": "I think of myself as someone who builds and runs small systems. For clients, that's meant owning everything from first contact to a finished, working website and the processes behind it. I taught myself to use CRM platforms, automation tools, and AI-assisted workflows to manage multiple client projects at once, on top of a full-time job. I'm looking for a role where I can apply that same approach (finding what's broken or missing, building a process or solution for it, and following through) to a team's internal operations or technical projects.",
+      "contact": {
+        "email": "nicholasjackson5656@gmail.com",
+        "phone": "+1-555-000-0000",
+        "linkedin": "https://www.linkedin.com/in/nicholas-jackson-852275216/",
+        "blurb": "Looking for operations, technical coordination, or project support roles. Let's talk about your process."
+      }
+    }
+  }
+}

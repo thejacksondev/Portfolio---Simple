@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Class-based dark mode toggle (manual, persisted via localStorage) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
