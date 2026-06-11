@@ -5,11 +5,19 @@
 
   // --- Dark/light mode toggle ---
   var themeToggle = document.getElementById('theme-toggle');
+  var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+  function setThemeColor(isDark) {
+    themeColorMeta.setAttribute('content', isDark ? '#020617' : '#f8fafc');
+  }
+
+  setThemeColor(html.classList.contains('dark'));
   themeToggle.setAttribute('aria-pressed', String(html.classList.contains('dark')));
   themeToggle.addEventListener('click', function () {
     var isDark = html.classList.toggle('dark');
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
     themeToggle.setAttribute('aria-pressed', String(isDark));
+    setThemeColor(isDark);
   });
 
   // --- Mobile menu toggle ---

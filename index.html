@@ -4,12 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Apply saved/preferred theme before first paint to avoid flash -->
+  <!-- Apply saved theme before first paint to avoid flash (defaults to light) -->
   <script>
     (function () {
       var stored = localStorage.getItem('theme');
-      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (stored === 'dark' || (!stored && prefersDark)) {
+      if (stored === 'dark') {
         document.documentElement.classList.add('dark');
       }
     })();
@@ -20,8 +19,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://nicholasajackson.dev/" />
 
-  <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)" />
-  <meta name="theme-color" content="#020617" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#f8fafc" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
