@@ -59,6 +59,7 @@
 
       <nav aria-label="Primary" class="hidden grow gap-6 text-sm font-medium md:flex">
         <a href="#projects" class="hover:text-sky-600 dark:hover:text-sky-400">Projects</a>
+        <a href="#testimonials" class="hover:text-sky-600 dark:hover:text-sky-400">Testimonials</a>
         <a href="#skills" class="hover:text-sky-600 dark:hover:text-sky-400">Skills</a>
         <a href="#experience" class="hover:text-sky-600 dark:hover:text-sky-400">Experience</a>
         <a href="#about" class="hover:text-sky-600 dark:hover:text-sky-400">About</a>
@@ -104,6 +105,7 @@
     <nav id="mobile-menu" aria-label="Mobile" class="hidden border-t border-slate-200/80 px-4 py-2 md:hidden dark:border-slate-800/80">
       <div class="flex flex-col gap-1 py-2 text-sm font-medium">
         <a href="#projects" class="rounded-md px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-800">Projects</a>
+        <a href="#testimonials" class="rounded-md px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-800">Testimonials</a>
         <a href="#skills" class="rounded-md px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-800">Skills</a>
         <a href="#experience" class="rounded-md px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-800">Experience</a>
         <a href="#about" class="rounded-md px-3 py-2 hover:bg-slate-100 dark:hover:bg-slate-800">About</a>
@@ -125,6 +127,12 @@
           <div class="mt-8 flex flex-wrap gap-4">
             <a href="#projects" class="rounded-md bg-sky-600 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">View Projects</a>
             <a href="#contact" class="rounded-md border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600 dark:border-slate-700 dark:text-white dark:hover:bg-slate-800">Get in Touch</a>
+            <a id="hero-resume" data-bind-href="resume" download target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-md border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600 dark:border-slate-700 dark:text-white dark:hover:bg-slate-800">
+              <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+              </svg>
+              Download Resume
+            </a>
           </div>
         </div>
         <div class="relative mx-auto aspect-[4/5] w-full max-w-xs overflow-hidden rounded-2xl border border-dashed border-slate-300 bg-slate-100 dark:border-slate-700 dark:bg-slate-800 lg:mx-0 lg:max-w-none">
@@ -144,6 +152,14 @@
       <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <h2 id="projects-heading" class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl dark:text-white">Selected Projects</h2>
         <div id="projects-list" class="mt-10 grid gap-8 lg:grid-cols-3"></div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" aria-labelledby="testimonials-heading" class="border-t border-slate-200 py-16 sm:py-24 dark:border-slate-800">
+      <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+        <h2 id="testimonials-heading" class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl dark:text-white">What Clients Say</h2>
+        <div id="testimonials-list" class="mt-10 grid gap-8 lg:grid-cols-3"></div>
       </div>
     </section>
 
@@ -291,6 +307,18 @@
   </template>
   <template id="tag-item-template">
     <li class="rounded-full bg-sky-50 px-3 py-1 text-xs font-medium text-sky-700 dark:bg-sky-900/30 dark:text-sky-300"></li>
+  </template>
+
+  <template id="testimonial-item-template">
+    <figure class="flex h-full flex-col justify-between rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
+      <blockquote class="text-slate-600 dark:text-slate-300">
+        <p>&ldquo;<span data-field="quote"></span>&rdquo;</p>
+      </blockquote>
+      <figcaption class="mt-6">
+        <p class="font-semibold text-slate-900 dark:text-white" data-field="name"></p>
+        <p class="text-sm text-slate-500 dark:text-slate-400" data-field="business"></p>
+      </figcaption>
+    </figure>
   </template>
 
   <script src="app.js"></script>

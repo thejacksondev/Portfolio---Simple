@@ -128,6 +128,7 @@
       renderSkills(content.skills);
       renderExperience(content.experience);
       renderProjects(content.projects);
+      renderTestimonials(content.testimonials);
     })
     .catch(function (err) {
       console.error('Failed to load content.json', err);
@@ -220,6 +221,19 @@
         li.querySelector('li').textContent = bullet;
         bullets.appendChild(li);
       });
+      list.appendChild(node);
+    });
+  }
+
+  function renderTestimonials(testimonials) {
+    var list = document.getElementById('testimonials-list');
+    var itemTpl = document.getElementById('testimonial-item-template');
+    list.innerHTML = '';
+    (testimonials || []).forEach(function (testimonial) {
+      var node = itemTpl.content.cloneNode(true);
+      node.querySelector('[data-field="quote"]').textContent = testimonial.quote;
+      node.querySelector('[data-field="name"]').textContent = testimonial.name;
+      node.querySelector('[data-field="business"]').textContent = testimonial.business;
       list.appendChild(node);
     });
   }
